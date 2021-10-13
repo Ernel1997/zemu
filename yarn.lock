@@ -589,15 +589,15 @@
   resolved "https://registry.yarnpkg.com/@ledgerhq/errors/-/errors-6.2.0.tgz#7dc2b3bf6bdedccdaa1b97dccacfa912c4fc22f8"
   integrity sha512-eO03x8HJmG60WtlrMuahigW/rwywFdcGzCnihta/MjkM8BD9A660cKVkyIuheCcpaB7UV/r+QsRl9abHbjjaag==
 
-"@ledgerhq/hw-transport-http@^6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-http/-/hw-transport-http-6.1.0.tgz#ede66296ab73d83ddb9165f5f21baaebcc29fdeb"
-  integrity sha512-thpVSA+r4xndZ1bweYL6XVt1C2JOBFyDXF31aqhGDKJih/tF+Sm+2swoS8d+ZCYJrk4sfdQTiq1T52V5oYLmDw==
+"@ledgerhq/hw-transport-http@^6.7.0":
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-http/-/hw-transport-http-6.7.0.tgz#dbc40c0c7dcf15e999331b49c1a583a63d0dea31"
+  integrity sha512-99UIQr3gw6b8ZzyQM6qIEJHGg5wz5k3/E/Bf26yhmE0k5qAoIxEjxq8vsPQzkUH6S872dXYXmmw1/+YK70cv7w==
   dependencies:
-    "@ledgerhq/errors" "^6.0.2"
-    "@ledgerhq/hw-transport" "^6.1.0"
-    "@ledgerhq/logs" "^6.0.2"
-    axios "^0.21.1"
+    "@ledgerhq/errors" "^6.2.0"
+    "@ledgerhq/hw-transport" "^6.7.0"
+    "@ledgerhq/logs" "^6.2.0"
+    axios "^0.21.4"
     ws "7"
 
 "@ledgerhq/hw-transport@^6.1.0":
@@ -609,7 +609,7 @@
     "@ledgerhq/errors" "^6.0.2"
     events "^3.3.0"
 
-"@ledgerhq/hw-transport@^6.2.0":
+"@ledgerhq/hw-transport@^6.2.0", "@ledgerhq/hw-transport@^6.7.0":
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport/-/hw-transport-6.7.0.tgz#d1f0d70e21b91e6457a32d4c3cec0764e97461ff"
   integrity sha512-w+PhW6Y4KXYdoCykkE1zt0VL6Ryf72RP8sZP8OH1O90hX/R/q9BMYKl8VNqTbqlrOrORgATlKkbmIJBjbngZew==
@@ -1109,7 +1109,7 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
-axios@^0.21.1:
+axios@^0.21.4:
   version "0.21.4"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
   integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
@@ -1213,9 +1213,9 @@ bindings@^1.3.0:
   dependencies:
     file-uri-to-path "1.0.0"
 
-"bip32-ed25519@git+https://github.com/Zondax/bip32-ed25519.git":
+"bip32-ed25519@https://github.com/Zondax/bip32-ed25519":
   version "0.0.4"
-  resolved "git+https://github.com/Zondax/bip32-ed25519.git#0949df01b5c93885339bc28116690292088f6134"
+  resolved "https://github.com/Zondax/bip32-ed25519#0949df01b5c93885339bc28116690292088f6134"
   dependencies:
     bn.js "^5.1.1"
     elliptic "^6.4.1"
