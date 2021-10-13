@@ -31,7 +31,7 @@
     "@grpc/proto-loader": "^0.6.4",
     "@ledgerhq/hw-transport": "^6.1.0",
     "@ledgerhq/hw-transport-http": "^6.1.0",
-    "dockerode": "^3.3.0",
+    "dockerode": "^3.3.1",
     "elfy": "^1.0.0",
     "fs-extra": "^10.0.0",
     "get-port": "^5.1.1",
